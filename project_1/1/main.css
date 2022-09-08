@@ -23,7 +23,7 @@ a{
    color: #000000;
 }
 a:hover{
-   color: #dfd3eb;
+   color: #5f266d;
 }
 
 /* Section About */
@@ -64,3 +64,36 @@ tr{
 td{
     border: 1px solid #cba9ee;  
 }
+/* Description */
+header{
+    margin: 30px 10px 30px 135px;
+    padding: 20px 10px;
+    border: 1px solid #cba9ee;
+    border-radius: 5px;
+    width: 80%;
+    line-height: 25px;
+}
+header > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.link{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* GOALS */
+article{
+    margin: 30px 10px 30px 135px;
+    padding: 20px 10px;
+    border: 1px solid #cba9ee;
+    border-radius: 5px;
+    width: 80%;
+    line-height: 25px;
+}
+ article >h1{
+    text-align: center;
+    margin-bottom: 10px;
+ }
